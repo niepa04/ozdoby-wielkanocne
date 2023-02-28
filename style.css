@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+    height:100%;
+
+}
+
+body {
+    background-color: #90ee90;
+}
+
+
+#title {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: #30c130;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    text-decoration: none;
+}
+
+.title {
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+
+}
+
+.kontakt {
+    left: 30px
+}
+.kontakt:hover{
+    text-decoration: underline;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gallery a {
+    display: block;
+}
+
+#gallery img {
+    width: 300px;
+    height: auto;
+    border: 6px solid #ccc;
+    border-radius: 15px;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+
+
+.photo {
+    transition: 0.5s;
+    margin-top: 90px;
+    margin: 40px;
+    top: 90px;
+
+}
+
+/*SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(3, 32, 1); 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(20, 94, 3); 
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00b37a; 
+  }
+  .photo {
+    position: relative;
+    margin-top: 90px;
+    margin: 40px;
+    top: 90px;
+    z-index: 500;
+}
+
+.photo .price {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 93%;
+    padding: 10px;
+    background-color: rgba(139, 218, 164, 0.8);
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    float: bottom;
+    clear: both;
+
+    height: auto;
+    max-width: 2560;
+    min-width: 1215px;
+}
+#bottom h1{
+    text-align: center;
+}
+footer {
+    width: 100%;
+    font-family: BrandonGrotesque-Regular, "futura-pt-1", "futura-pt-2", Verdana, serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    clear: both;
+    /*border: 1px blue solid;*/
+  }
+.mail {
+    color: white;
+}
+.price{
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+                                                
+}
+.break{
+    height: 90px;
+}
